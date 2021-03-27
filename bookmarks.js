@@ -23,7 +23,7 @@ const bookmarks = [
     links: [
       { name: "/r/askreddit",      url: "https://reddit.com/r/askreddit" },
       { name: "/r/android",        url: "https://reddit.com/r/android",},
-      { name: "/r/videos",         url: "https://reddit.com/r/me_irl" },
+      { name: "/r/videos",         url: "https://reddit.com/r/videos" },
       { name: "/r/news",           url: "https://reddit.com/r/news" },
       { name: "/r/battlestations", url: "https://reddit.com/r/battlestations",},
       { name: "/r/unixporn",       url: "https://reddit.com/r/unixporn" },

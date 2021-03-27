@@ -8,8 +8,6 @@
     <title>New tab</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
-
-    <script src="bg.js"></script>
   </head>
   <body>
     <div id="search">
@@ -65,7 +63,7 @@
         xhr.open(
           "GET",
           "https://api.openweathermap.org/data/2.5/weather?id=4480219&units=imperial&appid=5c07392206fda0262bbb734067bed0a3"
-       // "http://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}"
+       // "https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}"
         );
         xhr.onload = () => {
           if (xhr.readyState === 4) {
