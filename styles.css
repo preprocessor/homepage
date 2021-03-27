@@ -11,8 +11,8 @@
 }
 
 body {
-  background-color: var(--bg);
-  background-image: url(bg.jpg);
+  background: url(bg.jpg) center auto no-repeat var(--bg) ;
+  backgroun
   margin: 0px;
 }
 
@@ -30,7 +30,7 @@ body {
   font-size: 3.5rem;
   font-weight: 600;
   font-family: var(--fontFamily);
-  color: var(--fg);
+  color: var(--containerBg);
   margin-bottom: 0.25em;
 }
 
