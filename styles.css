@@ -31,7 +31,7 @@ body {
   font-family: var(--fontFamily);
   color: var(--containerBg);
   margin-bottom: 0.25em;
-  align-items: center;
+  text-align: center;
 }
 
 #search {
