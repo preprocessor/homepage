@@ -62,7 +62,8 @@
         // Request to open weather map
         xhr.open(
           "GET",
-          "http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece"
+          "https://api.openweathermap.org/data/2.5/weather?id=4480219&units=imperial&appid=5c07392206fda0262bbb734067bed0a3"
+       // "http://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}"
         );
         xhr.onload = () => {
           if (xhr.readyState === 4) {
@@ -73,7 +74,7 @@
               document.getElementById("weather-description").innerHTML =
                 json.weather[0].description;
             } else {
-              console.log("error msg: " + xhr.status);
+              console.log("weather error msg: " + xhr.status);
             }
           }
         };
