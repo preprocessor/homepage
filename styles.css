@@ -11,8 +11,7 @@
 }
 
 body {
-  background: url(bg.jpg) center auto no-repeat var(--bg) ;
-  backgroun
+  background: url(bg.jpg) var(--bg) center auto no-repeat;
   margin: 0px;
 }
 
