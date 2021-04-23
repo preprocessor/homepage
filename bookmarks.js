@@ -49,7 +49,6 @@ const bookmarks = [
     links: [
       { name: "Coinbase Pro",  url: "https://pro.coinbase.com/portfolios" },
       { name: "BlockFi",       url: "https://app.blockfi.com/home" },
-      { name: "1inch",         url: "https://1inch.exchange/" },
       { name: "Coinbase",      url: "https://www.coinbase.com/dashboard" },
       { name: "Binance",       url: "https://www.binance.us/en/usercenter/dashboard/overview" },
     ],
