@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  background: url(bg.jpg) var(--bg) no-repeat center/cover;
+  background: url(bg.png) var(--bg) no-repeat center/cover;
   width: 100%;
   height: 100vh;
   display: flex;
